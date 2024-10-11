@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    height: 52px;
+    border-width:52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+    font-family: "Agency FB";
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+/* Main Image */
+.mi {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Company Name */
+.cname {
+    font-family: Algerian;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Section Title */
+#title {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Paragraph */
+#para {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.logo-text {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Navigation */
+nav a {
+    margin-left: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Section Heading */
+h2 {
+    font-family: "Agency FB", sans-serif;
+    font-size: 55px;
+}
+
+/* Service Section */
+.service {
+    margin-bottom: 50px;
+    background-color: rgb(234, 233, 230);
+    padding: 20px;
+}
+
+.marq {
+   
+    font-family: Algerian;
+    font-size: 50px;
+    padding: 30px 0 20px;
+}
+
+.service .first, .service .second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    font-size: 25px;
+    width: 100%;
+}
+
+.service .first p, .service .second p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border: 2px solid;
+    font-size: 20px;
+    font-family: "Agency FB", sans-serif;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Align text in services */
+.service .first #p1, .service .second #p2 {
+    margin-left: 0;
+}
+
+.service .first #b1, .service .second #b2 {
+    margin-top: 20px;
+}
+
+/* Testimonials */
+#hr1{
+    display:flex;
+    flex-direction:column;
+    border-style:solid;
+    margin-top:20px;
+    margin-bottom:35px;
+}
+#heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.testimonial-section {
+    margin-top:35px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    text-align: center;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.7);
+    background-image: url("back.jpg");
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: pink;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    color: pink;
+    font-style: italic;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: rgb(234, 233, 230);
+    color: black;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.input{
+    height:45px;
+    width:350px;
+    background-color:rgb(234, 233, 230);
+    border-style:none;
+}
+
+.input:hover{
+    background-color:white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
