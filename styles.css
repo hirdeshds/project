@@ -198,6 +198,15 @@ button:hover {
     font-style: italic;
 }
 
+/*Form*/
+.form{
+    height:100px;
+    width:500px;
+    border-width:500px;
+    margin: 100px;
+    border-style:solid ;
+}
+
 /* Footer Styling */
 .footer {
     background-color: rgb(234, 233, 230);
