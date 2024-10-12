@@ -236,6 +236,7 @@ form #email{
     height: 15px; 
 }
 form #message{
+    resize:none;
     margin: 40px;
     margin-top:0px;
     margin-bottom:20px;
