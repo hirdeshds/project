@@ -208,6 +208,11 @@ form:hover{
 
     box-shadow:0 0 20px pink;
 }
+form img{
+    margin-left:450px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
 form h1{
     font-size:35px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
